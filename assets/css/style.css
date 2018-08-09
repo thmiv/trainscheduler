@@ -1,0 +1,29 @@
+.jumbotron {
+    background: darkslateblue;
+    margin: 0 30px 30px 30px;
+}
+h1 {
+    color: antiquewhite;
+}
+.col-md-12 {
+    border: 1px solid lightgray;
+}
+.col-md-2 {
+    border: 1px dotted gray;
+}
+.col-md-11 {
+    text-align: left;
+}
+#search-container, #results-container {
+    border: 1px solid black;
+    width: 90%;
+}
+#row-title {
+    text-align: left;
+    background: lightgray;
+}
+#form-container {
+    /* border: 15px solid gray; */
+    padding: 5px;
+    margin: 10px;
+}

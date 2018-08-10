@@ -1,30 +1,28 @@
 body {
-    background: url("../images/wavecut.png")
+    background: #d1cfcf;
 }
 .jumbotron {
     background: url("../images/grey_variations.png");
-    margin: 0 30px 30px 30px;
+    margin: 0 0 30px 0;
 }
-h1 {
-    color: antiquewhite;
-}
-.col-md-2 {
-    border: 1px dotted gray;
+h1.display-4 {
+    color: #eeeeee;
+    font-size: 60px;
 }
 .col-md-11 {
     text-align: left;
 }
 #search-container, #results-container {
-    background: #e4e4e4;
-    border: 1px solid black;
+    background: #eeeeee;
     width: 90%;
 }
 #row-title {
     text-align: left;
-    background: #999999;
+    background: #474d57;
+    color: #eeeeee;
+    padding-top: 5px;
 }
 #form-container {
-    /* border: 15px solid gray; */
     padding: 5px;
     margin: 10px;
 }
@@ -32,5 +30,14 @@ p {
     font: bold 16px/1.5em sans-serif;
 }
 p.lead {
-    color: #c06e2c;
+    color: #d38c52;
+    font-size: 24px;
+}
+#train-title {
+    color: #181a75;
+    font-size: 18px;
+}
+.btn-lg {
+    margin: 10px;
+    width: 140px;
 }

@@ -16,7 +16,7 @@
 
 <body>
     
-    <div class="jumbotron">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
             <h1 class="display-4">Train On Time</h1>
             <p class="lead"></p>
@@ -26,7 +26,7 @@
             <div class="container-fluid bg-3 text-center" id="results-container"> 
                 <div class="row" id="row-title">
                         <div class="col-md-12">
-                            <h3>Current Trains</h3>
+                            <h4>Current Trains</h4>
                         </div>
                     </div> 
                 
@@ -35,12 +35,12 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col"><p> Train Name </p></th>
-                                <th scope="col"><p> Destination </p></th>
-                                <th scope="col"><p> Frequency (min) </p></th>
-                                <th scope="col"><p> Next Arrival </p></th>
-                                <th scope="col"><p> Minutes Away </p></th>
-                                <th scope="col"><p> (Delete) </p></th>
+                                <th scope="col"><p id="train-title"> Train Name </p></th>
+                                <th scope="col"><p id="train-title"> Destination </p></th>
+                                <th scope="col"><p id="train-title"> Frequency (min) </p></th>
+                                <th scope="col"><p id="train-title"> Next Arrival </p></th>
+                                <th scope="col"><p id="train-title"> Minutes Away </p></th>
+                                <th scope="col"><p> </p></th>
                             </tr>
                         </thead>
                         <tbody id="train-data">
@@ -50,12 +50,12 @@
             </div>
         </div>
 
-        <br> <br> <br>
+        <br> <br>
       
       <div class="container-fluid bg-3 text-center" id="search-container">   
         <div class="row" id="row-title">
             <div class="col-md-12">
-                <h3>Add Train</h3>
+                <h4>Add Train</h4>
             </div>
         </div> 
         <div class="row">
@@ -78,8 +78,8 @@
                                 <label for="train-frequency">Frequency</label>
                                 <input type="text" class="form-control" id="train-frequency" placeholder="(in minutes)"> 
                             </div>
-                            <button type="submit-button" id="submit" class="btn btn-primary">Submit</button>
-                            <button type="clear" class="btn btn-primary">Clear</button>
+                            <button type="submit-button" id="submit" class="btn btn-primary btn-lg">Submit</button>
+                            <button type="clear" class="btn btn-secondary btn-lg">Clear</button>
                         </form>
                     </div>
                 </div>                               

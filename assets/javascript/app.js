@@ -56,7 +56,7 @@ function updateTrains() {
         newTrainRow += "<td>" + newFrequency + "</td>";
         newTrainRow += "<td>" + nextArrival + "</td>";
         newTrainRow += "<td>" + minutesAway + "</td>";
-        newTrainRow += "<td><button type='button' class='btn btn-primary btn-sm' id='" + trainId +"'>remove</button></td>";
+        newTrainRow += "<td><button type='button' class='btn btn-danger btn-sm' id='" + trainId +"'>remove</button></td>";
         newTrainRow += "</tr>";
 
         $("#train-data").append(newTrainRow);

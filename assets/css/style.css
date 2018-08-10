@@ -1,12 +1,12 @@
+body {
+    background: url("../images/wavecut.png")
+}
 .jumbotron {
-    background: darkslateblue;
+    background: url("../images/grey_variations.png");
     margin: 0 30px 30px 30px;
 }
 h1 {
     color: antiquewhite;
-}
-.col-md-12 {
-    border: 1px solid lightgray;
 }
 .col-md-2 {
     border: 1px dotted gray;
@@ -15,15 +15,22 @@ h1 {
     text-align: left;
 }
 #search-container, #results-container {
+    background: #e4e4e4;
     border: 1px solid black;
     width: 90%;
 }
 #row-title {
     text-align: left;
-    background: lightgray;
+    background: #999999;
 }
 #form-container {
     /* border: 15px solid gray; */
     padding: 5px;
     margin: 10px;
+}
+p {
+    font: bold 16px/1.5em sans-serif;
+}
+p.lead {
+    color: #c06e2c;
 }

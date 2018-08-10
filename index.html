@@ -18,7 +18,8 @@
     
     <div class="jumbotron">
         <div class="container text-center">
-          <h1>Train On Time</h1>
+            <h1 class="display-4">Train On Time</h1>
+            <p class="lead"></p>
         </div>
       </div>
         
@@ -27,28 +28,26 @@
                         <div class="col-md-12">
                             <h3>Current Trains</h3>
                         </div>
-                    </div>    
+                    </div> 
+                
             <div class="row">
-                <div class="col-md-2">
-                    Train Name
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col"><p> Train Name </p></th>
+                                <th scope="col"><p> Destination </p></th>
+                                <th scope="col"><p> Frequency (min) </p></th>
+                                <th scope="col"><p> Next Arrival </p></th>
+                                <th scope="col"><p> Minutes Away </p></th>
+                                <th scope="col"><p> (Delete) </p></th>
+                            </tr>
+                        </thead>
+                        <tbody id="train-data">
+                        </tbody>
+                    </table>    
                 </div>
-                <div class="col-md-2">
-                    Destination
-                </div>
-                <div class="col-md-2">
-                    Frequency (min)
-                </div>
-                <div class="col-md-2">
-                    Next Arrival
-                </div>
-                <div class="col-md-2">
-                    Minutes Away
-                </div>
-                <div class="col-md-2"></div>
-        </div>
-        <div class="row" id="train-data">
-
-        </div>
+            </div>
         </div>
 
         <br> <br> <br>
@@ -91,7 +90,7 @@
       <br> <br> <br> <br> <br>
       
       <footer class="container-fluid text-center">
-        <p>Web Metro &copy;</p>
+        <p> Web Metro &copy; </p>
       </footer>
 
 </body>
